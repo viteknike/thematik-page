@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'Gastreet Font';
+    src:url('../fonts/GastreetSans/GastreetFont.eot');
+    src:url('../fonts/GastreetSans/GastreetFont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GastreetSans/GastreetFont.woff2') format('woff2'),
+        url('../fonts/GastreetSans/GastreetFont.woff') format('woff'),
+        url('../fonts/GastreetSans/GastreetFont.ttf') format('truetype'),
+        url('../fonts/GastreetSans/GastreetFont.svg#GastreetFont') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'Gastreet Sans';
+    src:url('../fonts/GastreetSans/GastreetSans-Regular.eot');
+    src:url('../fonts/GastreetSans/GastreetSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GastreetSans/GastreetSans-Regular.woff2') format('woff2'),
+        url('../fonts/GastreetSans/GastreetSans-Regular.woff') format('woff'),
+        url('../fonts/GastreetSans/GastreetSans-Regular.ttf') format('truetype'),
+        url('../fonts/GastreetSans/GastreetSans-Regular.svg#GastreetSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'Gastreet Sans';
+    src:url('../fonts/GastreetSans/GastreetSans-Bold.eot');
+    src:url('../fonts/GastreetSans/GastreetSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GastreetSans/GastreetSans-Bold.woff2') format('woff2'),
+        url('../fonts/GastreetSans/GastreetSans-Bold.woff') format('woff'),
+        url('../fonts/GastreetSans/GastreetSans-Bold.ttf') format('truetype'),
+        url('../fonts/GastreetSans/GastreetSans-Bold.svg#GastreetSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;}
+* {
+    margin: 0;
+    padding: 0;}
+html {
+    font-size: 16px;}
+body {
+    color: #000;
+    font-family: 'Gastreet Sans', sans-serif;
+    font-style: normal;
+    background-color: #fff;}
+.thematik-chef-page .logo-page {
+    margin-left: 14.1rem;}
+.thematik-chef-page .img-faces-page {
+    display: flex;}
+.thematik-chef-page .img-faces-page .title {
+    color: #282c57;
+    margin-left: 15.4rem;
+    margin-right: 2rem;
+    line-height: 1;
+    font-size: 30px;}
+.thematik-chef-page .img-faces-page .title span {
+    font-weight: 600;
+    font-size: 40px;}
+.thematik-chef-page .camo {
+    position: absolute;
+    left: 8rem;
+    bottom: -7rem;
+    width: 85%;} 
+.in-all-ticket {
+    display: flex;
+    justify-content: space-around;
+    line-height: 2;
+    box-shadow: 0 0 20px 0 #3070a5;}
+.in-all-ticket-mobile {
+    display: none;}
+.in-all-ticket .description-all-ticket .longtitle {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;}
+.in-all-ticket .description-all-ticket {
+    padding-top: 2rem;}
+.thematik-chef-page .video {
+    background-color: #383838;
+    height: 35rem;
+    margin: 7.750rem 0;}
+.thematik-chef-page .video .btn-play {
+    width: 6.250rem;
+    height: 6.250rem;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    top: calc(50% - 3.125rem);
+    left: calc(50% - 3.125rem);
+    background-image: url(../../../images/btn-play.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;}
+.carousel .title-carousel {
+    font-size: 2.1rem;
+    color: #12073f;
+    font-weight: 600;
+    margin-bottom: 3rem;}
+#spiakerCarousel {
+    margin-bottom: 4rem;}
+#spiakerCarousel .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    margin: 5px 7px;
+    background: #fff;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    border: 1px solid #12073f;}
+#spiakerCarousel .owl-dots .owl-dot.active span {
+    background-color: #12073f;}
+#festCarousel img {
+    height: 300px;
+    width:auto;}
+#festCarousel .owl-nav {
+    margin-bottom: 4rem;}
+#festCarousel .owl-nav [class*=owl-] {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);}
+#festCarousel .owl-nav button.owl-prev {
+    left: -23px;
+    background-color: #fff;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    box-shadow: 0px 0px 6px 0px;}
+#festCarousel .owl-nav button.owl-next {
+    right: -23px;
+    background-color: #fff;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    box-shadow: 0px 0px 6px 0px;}
+#festCarousel .owl-nav button.owl-prev span, #festCarousel .owl-nav button.owl-next span {
+    padding: 0px 14px;}
+.thematik-chef-page .timetable .time-data {
+    text-align: left;
+    display: flex;
+    align-items: center;}
+.thematik-chef-page .timetable .data {
+    font-weight: 600;}
+.thematik-chef-page .timetable .name-city {
+    color: #fff;
+    background-color: #b0ca1f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;}
+.thematik-chef-page .timetable .name {
+    text-decoration: underline;}
+.thematik-chef-page .timetable .city {
+    font-size: 0.625rem;}
+.thematik-chef-page .timetable .description {
+    color: #fff;
+    background-color: #b0ca1f;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-left: 2rem;
+    border-left: 15px solid;}
+.thematik-chef-page .timetable {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;}
+
+
+
+@media (min-width: 300px) and (max-width: 767px) {
+    body {
+        font-size: 9px;}
+    .thematik-chef-page .video  {
+        height: 10rem;
+        margin: 2.75rem 0}
+    .carousel .title-carousel {
+        font-size: 20px;
+        margin-bottom: 0;}
+    .thematik-chef-page .video .btn-play {
+        width: 3.250rem;
+        height: 3.250rem;
+        top: calc(50% - 1.625rem);
+        left: calc(50% - 1.625rem);}
+    .in-all-ticket {
+       font-size: 9px;}
+    .thematik-chef-page .logo-page .logo {
+        width: 70%;}
+    .thematik-chef-page .logo-page {
+        margin-left: 0;
+        padding: 0;}
+    .thematik-chef-page .camo {
+        width: 100%;
+        left: 0;
+        bottom: -2.2rem;}
+    .thematik-chef-page .img-faces-page .faces {
+        width: 80%;}
+    .thematik-chef-page .img-faces-page .title span {
+        font-size: 11px;}
+    .thematik-chef-page .img-faces-page .title {
+        vertical-align: middle;
+        font-size: 6px;
+        padding: 0;
+        margin-right: 1rem;
+        margin-left: 0;
+        margin-top: 1rem;}
+    #festCarousel img {
+        height: 213px;}
+    #festCarousel .owl-nav button.owl-prev {
+        left: -15px;}
+    #festCarousel .owl-nav button.owl-next {
+        right: -15px;}
+    .in-all-ticket {
+        display: none;}
+    .in-all-ticket-mobile {
+        display: flex;
+        justify-content: space-around;
+        line-height: 2;}
+    .in-all-ticket-mobile .longtitle {
+        margin-top: 1rem;
+        margin-bottom: 2rem;}
+    .in-all-ticket-mobile .description-all-ticket {
+        margin-top: 2rem;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 12px;}
+    #festCarousel img {
+        height: 190px;}
+    .thematik-chef-page .video  {
+        height: 18rem;
+        margin: 4.75rem 0}
+    .carousel .title-carousel {
+        font-size: 20px;
+        margin-bottom: 0;}
+    .thematik-chef-page .video .btn-play {
+        width: 3.250rem;
+        height: 3.250rem;
+        top: calc(50% - 1.625rem);
+        left: calc(50% - 1.625rem);}
+    .in-all-ticket {
+        display: contents;
+        line-height: 2;}
+    .thematik-chef-page .logo-page .logo {
+        width: 70%;}
+    .thematik-chef-page .logo-page {
+        margin-left: 0;
+        padding: 0;}
+    .thematik-chef-page .camo {
+        width: 100%;
+        left: 0;
+        bottom: -4rem;}
+    .thematik-chef-page .img-faces-page .faces {
+        width: 80%;}
+    .thematik-chef-page .img-faces-page .title span {
+        font-size: 25px;}
+    .thematik-chef-page .img-faces-page .title {
+        vertical-align: middle;
+        font-size: 12px;
+        padding: 0;
+        margin-right: 1rem;
+        margin-left: 0.3rem;
+        margin-top: 1rem;}
+    #festCarousel img {
+        height: 190px;}
+    #festCarousel .owl-nav button.owl-prev {
+        left: -15px;}
+    #festCarousel .owl-nav button.owl-next {
+        right: -15px;}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
