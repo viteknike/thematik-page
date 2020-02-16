@@ -24,11 +24,11 @@ $(document).ready(function(){
         dots:true,
         responsive:{
             0:{
-                items:2,
+                items:4,
                 margin:10
             },
             600:{
-                items:2,
+                items:4,
                 margin:10,
             },
             900:{
