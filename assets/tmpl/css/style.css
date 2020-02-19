@@ -40,40 +40,37 @@ body {
     font-family: 'Gastreet Sans', sans-serif;
     font-style: normal;
     background-color: #fff;}
-.thematik-chef-page .logo-page {
-    margin-left: 4.3rem;}
 .thematik-chef-page .img-faces-page {
-    display: flex;}
-.thematik-chef-page .img-faces-page .title {
-    color: #282c57;
-    margin-left: 5.6rem;
-    margin-right: 2rem;
-    line-height: 1;
-    font-size: 30px;}
-.thematik-chef-page .img-faces-page .title span {
-    font-weight: 600;
-    font-size: 40px;}
-.thematik-chef-page .camo {
-    position: absolute;
-    bottom: -7rem;
-    width: 100%;} 
+    height: 52rem;
+    background-image: url(../../../images/main_chef.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;}
 .in-all-ticket {
     display: flex;
     justify-content: space-around;
     line-height: 2;
     box-shadow: 0 0 20px 0 #3070a5;}
-.in-all-ticket-mobile {
-    display: none;}
-.in-all-ticket .description-all-ticket .longtitle {
+.in-all-ticket .longtitle {
     margin-top: 1rem;
     margin-left: 2rem;
     margin-bottom: 3rem;}
+.description-header .text {
+    margin-bottom: 2rem;
+    color: #000;}
+.description-header .num {
+    font-family: 'Gastreet Font', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #10093B;
+    line-height: 1;
+    margin-bottom: .3rem}
 .in-all-ticket .description-all-ticket {
     padding-top: 2rem;}
 .thematik-chef-page .video {
     background-color: #383838;
     height: 35rem;
-    margin: 7.750rem 0;}
+    margin-bottom: 3rem;}
 .thematik-chef-page .video .btn-play {
     width: 6.250rem;
     height: 6.250rem;
@@ -86,7 +83,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;}
-.carousel .title-carousel {
+    .carousel-fest-page .title-carousel, .carousel-speak-page .title-carousel {
     font-size: 2.1rem;
     color: #12073f;
     font-weight: 600;
@@ -114,63 +111,80 @@ body {
     position: absolute;
     top: 40%;
     transform: translateY(-50%);}
-#festCarousel .owl-nav button.owl-prev {
+#festCarousel .owl-nav button {
     left: -23px;
     background-color: #fff;
     font-size: 1.5rem;
     border-radius: 50px;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
     box-shadow: 0px 0px 6px 0px;}
 #festCarousel .owl-nav button.owl-next {
-    right: -23px;
-    background-color: #fff;
-    font-size: 1.5rem;
-    border-radius: 50px;
-    box-shadow: 0px 0px 6px 0px;}
-#festCarousel .owl-nav button.owl-prev span, #festCarousel .owl-nav button.owl-next span {
-    padding: 0px 14px;}
+    left: auto;
+    right: -23px;}
+#festCarousel .owl-nav [class*=owl-]:hover {
+    background: #000;}
+#festCarousel .longtitle-carousel {
+    font-size: 1rem;
+    margin-top: 1rem;}
 .thematik-chef-page .timetable .time-data {
-    text-align: left;
-    display: flex;
-    align-items: center;}
+    text-align: left;}
 .thematik-chef-page .timetable .data {
     font-weight: 600;}
 .thematik-chef-page .timetable .name-city {
     color: #fff;
-    background-color: #b0ca1f;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: space-between;
-    padding: 0;}
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 600;}
 .thematik-chef-page .timetable .name {
-    text-decoration: underline;}
+    text-decoration: underline;
+    font-weight: 600;}
 .thematik-chef-page .timetable .city {
-    font-size: 0.625rem;}
-.thematik-chef-page .timetable .description {
-    color: #fff;
-    background-color: #b0ca1f;
-    display: flex;
-    align-items: center;
-    text-align: left;
-    padding-left: 2rem;
-    border-left: 15px solid;}
+    font-size: 0.650rem;}
 .thematik-chef-page .timetable {
-    margin-top: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: space-around;}
-.thematik-chef-page .timetable-page-mobile {
-    display: none;}
-
-
-
+.thematik-chef-page .timetable .timetable-item-bg {
+    color: #fff;
+    background-color: #b0ca1f;
+    text-align: left;  
+    height: 100%;}
+.thematik-chef-page .timetable .timetable-item-bg .participant {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: right 15px bottom 0;}
+.thematik-chef-page .timetable .timetable-item-bg .participant::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 15px;
+    background-color: #fff;
+    display: block;}
+.thematik-chef-page .timetable .timetable-item-bg .participant img {
+    opacity: 0;}
+.timetable-page .title-programm {
+    font-size: 2.250rem;
+    font-weight: 600;}
 @media (min-width: 300px) and (max-width: 767px) {
-    body {
+    html {
         font-size: 9px;}
-    .thematik-chef-page .video  {
-        height: 10rem;
-        margin: 2.75rem 0}
-    .carousel .title-carousel {
+    .thematik-chef-page .img-faces-page {
+       height: 28rem;}
+    .img-faces-page {
+        overflow: hidden;}
+    .thematik-chef-page .video {
+        height: 22rem;
+        margin-bottom: 2.75rem}
+    .carousel-fest-page .title-carousel, .carousel-speak-page .title-carousel {
         font-size: 20px;
-        margin-bottom: 0;}
+        margin-bottom: 1rem;}
     .thematik-chef-page .video .btn-play {
         width: 3.250rem;
         height: 3.250rem;
@@ -178,34 +192,15 @@ body {
         left: calc(50% - 1.625rem);}
     .in-all-ticket {
        font-size: 9px;}
-    .thematik-chef-page .logo-page .logo {
-        width: 70%;}
-    .thematik-chef-page .logo-page {
-        margin-left: 0;
-        padding: 0;}
-    .thematik-chef-page .camo {
-        width: 100%;
-        left: 0;
-        bottom: -2rem;}
-    .thematik-chef-page .img-faces-page .faces {
-        width: 80%;}
-    .thematik-chef-page .img-faces-page .title span {
-        font-size: 11px;}
-    .thematik-chef-page .img-faces-page .title {
-        vertical-align: middle;
-        font-size: 6px;
-        padding: 0;
-        margin-right: 2.5rem;
-        margin-left: 0;
-        margin-top: 1rem;}
     #festCarousel img {
         height: 213px;}
     #festCarousel .owl-nav button.owl-prev {
         left: -15px;}
     #festCarousel .owl-nav button.owl-next {
         right: -15px;}
-    .in-all-ticket {
-        display: none;}
+    #spiakerCarousel .owl-dots .owl-dot span {
+        width: 10px;
+        height: 10px;}
     .in-all-ticket-mobile {
         display: flex;
         justify-content: space-around;
@@ -213,66 +208,50 @@ body {
     .in-all-ticket-mobile .longtitle {
         margin-top: 1rem;
         margin-bottom: 2rem;}
-    .thematik-chef-page .timetable-page {
-        display: none;}
     .in-all-ticket-mobile .description-all-ticket {
         margin-top: 2rem;}
-    .thematik-chef-page .timetable-mobile .time-data .calendar {
+    .thematik-chef-page .timedata-menu, .thematik-chef-page .timedata-menu .dropdown-menu .dropdown-item{
+        font-size: 1.5rem;
+        color: #3070a5}
+    .thematik-chef-page .timetable .time-data .calendar {
         text-align: center;
         color: #3070a5;
         font-size: 20px;}
-    .thematik-chef-page .timetable-mobile .time-data {
-        text-align: center;
-        font-size: 13px;}
-    .thematik-chef-page .timetable-mobile .data {
+    .thematik-chef-page .timetable .time-data {
+        font-size: 12px;}
+    .thematik-chef-page .timetable .data {
         font-weight: 600;}
-    .thematik-chef-page .timetable-mobile .name-city {
-        color: #fff;
-        background-color: #b0ca1f;
-        padding: 0;}
-    .thematik-chef-page .timetable-mobile .name {
-        text-decoration: underline;
-        font-size: 10px;}
-    .thematik-chef-page .timetable-mobile .city {
-        font-size: 8px;
-        margin-top: 5px;}
-    .thematik-chef-page .timetable-mobile .description {
-        color: #fff;
-        background-color: #b0ca1f;
-        text-align: left;
-        padding-top: 0.5rem;
-        font-size: 10px;
-        font-weight: 600;}
-    .thematik-chef-page .timetable-mobile .corp {
+    .thematik-chef-page .timetable .corp {
         text-align: center;
         margin-bottom: 1rem;}
-    .thematik-chef-page .timetable-mobile .participant {
-        padding: 0;}
-    .thematik-chef-page .timetable-mobile .participant img {
-        width: 100%;}
-    .thematik-chef-page .timetable-mobile {
-        padding: 0;
-        margin-top: 1rem;
-        display: flex;
-        justify-content: space-around;}
-    .thematik-chef-page .timetable-page-mobile .timedata-menu .dropdown-item {
-        color: #3070a5;}
-    .thematik-chef-page .timetable-page-mobile .timedata-menu {
-        font-size: 13px;
-        color: #3070a5;}
     .thematik-chef-page .drop {
-        text-align: center;    }
-    .thematik-chef-page .timetable-page-mobile {
-        display: block;}
+        text-align: center;}
+    .timetable-page .title-programm {
+        font-size: 1.5rem;
+        font-weight: 600;}
+    .in-all-ticket .longtitle {
+        margin-left: 0;}
+    .thematik-chef-page .timetable .timetable-item-bg .participant {
+        right: 0;
+        top: 0;
+        z-index: 1;
+        bottom: 0;
+        background-position: right bottom;}
+    .thematik-chef-page .timetable .timetable-item-bg .participant::after {
+        display: none;}
+    .timetable .time-data {
+        margin-top: -1px;}
 }
 @media (min-width: 768px) and (max-width: 991px) {
     body {
         font-size: 12px;}
+    .thematik-chef-page .img-faces-page {
+        height: 30rem;}
     #festCarousel img {
         height: 190px;}
     .thematik-chef-page .video  {
         height: 18rem;
-        margin: 4.75rem 0}
+        margin-bottom: 4.75rem;}
     .carousel .title-carousel {
         font-size: 20px;
         margin-bottom: 0;}
@@ -312,5 +291,7 @@ body {
         right: -15px;}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    .thematik-chef-page .main_chef {
+        left: 0;
+        width: 100%;}
 }
