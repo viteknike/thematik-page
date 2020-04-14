@@ -96,7 +96,7 @@ body {
     margin: 5px 7px;
     background: #fff;
     display: block;
-    -webkit-backface-visibility: visible;
+    -webkit-backface-visibility-: visible;
     transition: opacity .2s ease;
     border-radius: 30px;
     border: 1px solid #12073f;}
@@ -130,7 +130,7 @@ body {
     margin-top: 1rem;}
 .thematik-chef-page .timetable .time-data {
     text-align: left;}
-.thematik-chef-page .timetable .data {
+.thematik-chef-page .timetable .time {
     font-weight: 600;}
 .thematik-chef-page .timetable .name-city {
     color: #fff;
@@ -140,9 +140,15 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     font-weight: 600;}
-.thematik-chef-page .timetable .name {
+.timetable-page .timedata-menu .day {
+    color: #000;
+    font-size: 1.2rem;}
+.timetable-page .timedata-menu .day.active {
+    color: #008dd2;
     text-decoration: underline;
     font-weight: 600;}
+.thematik-chef-page .timetable .name {
+    text-decoration: underline;}
 .thematik-chef-page .timetable .city {
     font-size: 0.650rem;}
 .thematik-chef-page .timetable {
@@ -219,7 +225,7 @@ body {
         font-size: 20px;}
     .thematik-chef-page .timetable .time-data {
         font-size: 12px;}
-    .thematik-chef-page .timetable .data {
+    .thematik-chef-page .timetable .time {
         font-weight: 600;}
     .thematik-chef-page .timetable .corp {
         text-align: center;
